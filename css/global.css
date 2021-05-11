@@ -261,6 +261,93 @@ body{
     font-weight: 400;
 }
 
+#banner3{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background: #fff !important;
+}
+
+.col-pink-l , .col-pink-r , .col-pink-m{
+    background:linear-gradient(180deg, #CBA1DF -16%, #f5f5f5 100%);
+    height: 70vh;
+    margin-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.col-pink-l{
+    border-top-left-radius: 3px;
+    border-end-start-radius: 3px;
+}
+
+.col-pink-r{
+    border-top-right-radius: 3px;
+    border-end-end-radius: 3px;
+}
+
+.esfera{
+    width: 148px;
+    height: 100px;
+    background: #B57AD2;
+    position: relative;
+    margin-left: 32%;
+    margin-top: 18%;
+}
+
+.esfera::before{
+    content: "";
+    position: absolute;
+    top: -25px;
+    left:0;
+    width: 0;
+    height: 0;
+    border-left: 74px solid transparent;
+    border-right: 74px solid transparent;
+    border-bottom: 25px solid #B57AD2;
+}
+
+.esfera::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 74px solid transparent;
+    border-right: 74px solid transparent;
+    border-top: 25px solid #B57AD2;
+ }
+
+ .imgconfig{
+    width: 64%;
+    margin-left: 20%;
+ }
+
+ #eAzul{
+    background: #3490CF !important;
+ }
+
+ #eAzul::before{
+    border-bottom: 25px solid #3490CF !important;
+ }
+
+ #eAzul:after {
+    border-top: 25px solid #3490CF !important;
+ }
+
+ #imgconfigm{
+     width: 77% !important;
+     margin-left: 17% !important;
+ }
+
+ .bg-txt{
+     background-color: #B57AD2;
+ }
+ 
+
+ 
+
 @media only screen and (min-width: 1920px) {
     .imgNav {
         margin-left: 145px;
