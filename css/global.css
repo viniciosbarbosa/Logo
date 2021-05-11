@@ -1,0 +1,334 @@
+body{
+    overflow-x: hidden;
+}
+
+#menuLogo{
+    background-color:#f5f5f5 !important;
+    z-index: 4;
+    box-shadow: 10px -22px 94px 10px #888888;
+    height: auto;
+    position: relative;
+    transition: 0.3s;
+}
+
+.imgNav{
+    padding: 10px;
+}
+
+.imgNav:hover{
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
+.nav-item{
+    padding:0px 7px
+}
+
+#list-menu a{
+    color: #3C3C3C;
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-transform: capitalize;
+    flex-direction: column;
+}
+
+.nav-link:hover{
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
+#btnNav{
+    color: #B57AD2 !important;
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    border: 1px solid #B57AD2;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+#btnSection1 , #btnSection2{
+    color: #B57AD2 !important;
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    border: 1px solid #B57AD2;
+    border-radius: 25px;
+    text-align: center;
+    width: 25%;
+    height: 30px;
+    padding: 7px;
+    height: auto;
+    display:block;
+    margin-top:20px;
+    text-decoration: none;
+}
+#btnSection1:hover , #btnSection2:hover{
+    transition: 0.3s;
+    color: #f5f5f5 !important;
+    background: linear-gradient(105deg, #f5f5f5 0%, #ad73ca75 100%);
+    border: 1px solid #ad73ca75 !important;
+    transform: scale(1.01) !important;
+    outline: none;
+}
+
+#btnNav:hover{
+    transition: 0.3s;
+    color: #f5f5f5 !important;
+    background: linear-gradient(105deg, #B57AD2 0%, #ad73ca75 100%);
+    border: 1px solid #fff !important;
+    transform: scale(1) !important;
+    outline: none;
+    text-decoration: none;
+    
+}
+
+#btnSection2{
+    width: 37% !important;
+}
+
+#btnNav:focus{
+    outline: none;
+}
+
+.btnMenu{
+    width: 28px;
+}
+
+.btnMenu:hover , .btnF:hover{ 
+    outline: none !important;
+}
+
+.btnMenu:focus, .btnF:focus{
+    outline: none !important;
+}
+
+#banner1{
+    padding-left: 3%;
+    padding-bottom: 5%;
+    background: #fff !important;
+}
+
+.titleBanner1{
+    font-size: 25px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #3C3C3C;
+    font-weight: bold;
+    margin-top: 40%;
+    text-transform: capitalize;
+}
+
+.subTitlebanner1{
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #3C3C3C;
+    line-height: 1.5;
+    margin-top: 3%;
+    display: block;
+}
+
+.menu2{
+    background-position-x: 6px;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/oval.svg");
+    background-position-y: -139px;
+    background-repeat: no-repeat;
+}
+
+.imgUp{
+    margin-top: 100px;
+    margin-right: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgOval{
+    width: 100%;
+}
+
+#btnTop{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    bottom: 30px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    border: 2px solid #B57AD2;
+    background: white;
+    display: none;
+    transition: 0.5s;
+}
+
+#btnTop:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 6px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #B57AD2;
+}
+
+#banner2{
+    padding-left: 3%;
+    padding-bottom: 5%;
+    background: #fff !important;
+}
+
+.titlebanner2{
+    color: #3C3C3C;
+    font-size: 25px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: center;
+}
+
+.subtitlebanner2{
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #3C3C3C;
+    line-height: 1.5;
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+}
+
+.cardSection2{
+    max-width: 80%;
+    margin-top: 9%;
+    margin-left: 12%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardSection2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card-title{
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+}
+
+.card-ul{
+    list-style: none;
+}
+
+.card-li{
+    font-size: 14px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+}
+
+.card-li::before{
+    content: "\2022";
+    color:#B57AD2;
+    font-weight: bold;
+    display: inline; 
+    width: 1em;
+    margin-left: -2em;
+}
+
+.process{
+    color: #3C3C3C;
+    font-size: 25px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: center;
+}
+
+.subtitleprocess{
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #3C3C3C;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 1920px) {
+    .imgNav {
+        margin-left: 145px;
+    }
+    
+    .nav-item{
+        padding:   0px 20px;
+    }
+    
+    .titleBanner1{
+        margin-top:45%;
+    }
+    
+    .titleBanner1 , .subTitlebanner1 {
+        padding-left: 15%;
+    }
+    
+    #btnSection1 {
+        margin-left: 15%;
+    }
+}
+
+
+
+@media only screen and (max-width: 961px) {
+    
+    .nav-link:hover{
+        transition: 0s;
+        transform: scale(1.01);
+        margin-left: 1%;
+        background: linear-gradient(105deg, #ad73ca75 13%, #f5f5f5 100%);
+        border-radius: 10px;
+        margin-right: 10%;
+        padding-left: 1%;
+        color: #fff !important;
+    }
+    
+    .nav-item{
+        padding:6px;
+    }
+    
+    #btnNav:hover{
+        border:1px solid #ad73ca75 !important;
+    }
+    
+    #btnSection1{
+        width: 35%;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 761px) {
+    .titleBanner1{
+        margin-top: 10%;
+    }
+    
+    #btnSection1{
+        width: 35%;
+    }
+    
+    .menu1{
+        margin-bottom: 25px;
+    }
+
+    .menu2{
+        background-position-y: -23px;
+    }
+    
+}
