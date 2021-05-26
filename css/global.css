@@ -270,10 +270,11 @@ body{
 
 .col-pink-l , .col-pink-r , .col-pink-m{
     background:linear-gradient(180deg, #CBA1DF -16%, #f5f5f5 100%);
-    height: 70vh;
+    height: auto;
     margin-top: 5%;
-    padding-bottom: 5%;
-
+    padding-left: 0%;
+    padding-right: 0%;
+    
 }
 
 .col-pink-l{
@@ -291,8 +292,9 @@ body{
     height: 100px;
     background: #B57AD2;
     position: relative;
-    margin-left: 32%;
+    margin-left: 27%;
     margin-top: 18%;
+    margin-bottom: 14%;
 }
 
 .esfera::before{
@@ -317,38 +319,139 @@ body{
     border-left: 74px solid transparent;
     border-right: 74px solid transparent;
     border-top: 25px solid #B57AD2;
- }
+}
 
- .imgconfig{
+.imgconfig{
     width: 64%;
     margin-left: 20%;
- }
+}
 
- #eAzul{
+#eAzul{
     background: #3490CF !important;
- }
+}
 
- #eAzul::before{
+#eAzul::before{
     border-bottom: 25px solid #3490CF !important;
- }
+}
 
- #eAzul:after {
+#eAzul:after {
     border-top: 25px solid #3490CF !important;
- }
+}
 
- #imgconfigm{
-     width: 77% !important;
-     margin-left: 17% !important;
- }
+#imgconfigm{
+    width: 77% !important;
+    margin-left: 17% !important;
+}
 
- .bg-txt{
-     background-color: #B57AD2;
- }
- 
+.bg-txt{
+    background-color: #B57AD2;
+}
 
- 
+#fto1::before{
+    content: "";
+    position: absolute;
+    top: -49px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 165.5px solid #B57AD2;
+    border-right: 171.5px solid #B57AD2;
+    border-top: 49px solid transparent;
+}
+
+#fto2::before{
+    content: "";
+    position: absolute;
+    top: -49px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 165.5px solid #3490CF;
+    border-right: 171.5px solid #3490CF;
+    border-top: 49px solid transparent;
+}
+
+#fto1{
+    background-color: #B57AD2;
+}
+
+#fto2{
+    background-color: #3490CF;
+}
+
+#fto1 h1 , #fto2 h1{
+    font-size: 20px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.ftoh1 , .ftoh2{
+    padding-top: 40px;
+    
+}
+
+#bn3txt1{
+    font-size: 15px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10%;
+    padding-bottom: 57px;
+    margin-bottom: 0%;
+}
+
+
+#bn3txt2{
+    font-size: 15px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10%;
+    padding-bottom: 35px;
+    margin-bottom: 0%;
+}
+
+
+#bn3txt3{
+    font-size: 15px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10%;
+    padding-bottom: 79px;
+    margin-bottom: 0%;
+}
+
+
+
 
 @media only screen and (min-width: 1920px) {
+    
+    .esfera{
+        margin-left: 35%;
+    }
+    
+    #bn3txt2{
+        padding-bottom: 57px;
+    }
+    
+    #fto1::before{
+        top: -49px;
+        border-left: 254px solid #B57AD2;
+        border-right: 254px solid #B57AD2;
+        border-top: 52px solid transparent;
+    }
+    
+    #fto2::before{
+        border-left: 254px solid #3490CF;
+        border-right: 254px solid #3490CF;
+        border-top: 52px solid transparent;
+    }
     .imgNav {
         margin-left: 145px;
     }
@@ -370,9 +473,71 @@ body{
     }
 }
 
+@media only screen and (min-width :1590px) and (max-width:1610px){
+    .esfera {
+       margin-left: 33%; 
+    }
+    
+    .card1{
+        margin-top: 6%;
+    }
 
+    #fto1::before{
+        top: -49px;
+        border-left: 214px solid #B57AD2;
+        border-right: 213px solid #B57AD2;
+        border-top: 51px solid transparent;
+    }
+    
+    #fto2::before{
+        border-left: 214px solid #3490CF;
+        border-right: 213px solid #3490CF;
+        border-top: 51px solid transparent;
+    }
+
+    #bn3txt1{
+        padding-bottom: 79px;
+    }
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+}
+
+@media only screen and (min-width:1360px) and (max-width:1376px){
+    .esfera{
+        margin-left: 29%;
+    }
+    
+    #bn3txt1{
+        padding-bottom: 79px;
+    }
+    
+    #bn3txt2{
+        padding-bottom: 57px;
+    }
+    
+    #fto1::before{
+        top: -47px;
+        border-left: 183px solid #B57AD2;
+        border-right: 181px solid #B57AD2;
+    }
+    
+    #fto2::before{
+        top: -47px;
+        border-left: 183px solid #3490CF;
+        border-right: 181px solid #3490CF;
+    }
+    
+    
+}
 
 @media only screen and (max-width: 961px) {
+    
+    .col-pink-l , .col-pink-r , .col-pink-m{
+        height: auto;
+    }
     
     .nav-link:hover{
         transition: 0s;
@@ -413,9 +578,82 @@ body{
     .menu1{
         margin-bottom: 25px;
     }
-
+    
     .menu2{
         background-position-y: -23px;
     }
     
+    .col-pink-l ,.col-pink-m,.col-pink-r{
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width :770px) and (max-width:1090px){
+    #banner{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #fto1::before {
+        display:none
+    }
+    
+    #fto2::before{
+        display: none;
+    }
+    
+    .esfera{
+        margin-left:calc(100%  - 75%)
+    }
+}
+
+@media only screen and (min-width :613px )and (max-width:769px){
+    .esfera{
+        margin-left:calc(100% - 63%)
+    }
+    
+    #fto1::before {
+        display:none
+    }
+    
+    #fto2::before{
+        display: none;
+    }
+    
+    #fto1 p {
+        margin-top: 5%;
+    }
+    
+}
+
+@media only screen and (min-width :501px )and (max-width:612px){
+    .esfera{
+        margin-left:calc(100% - 65%)
+    }
+    
+    #fto1::before {
+        display:none
+    }
+    #fto2::before{
+        display: none;
+    }
+    
+    
+}
+
+@media only screen and (max-width :500px){
+    #fto1::before{
+        border-left: 195.5px solid rgb(181, 122, 210);
+        border-right: 192.5px solid rgb(181, 122, 210);
+    }
+    
+    #fto2::before{
+        border-left: 195.5px solid #3490CF;
+        border-right: 192.5px solid #3490CF;
+    }
+    
+    .esfera {
+        margin-left: 31%;
+    }       
 }
