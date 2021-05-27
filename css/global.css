@@ -356,7 +356,7 @@ body{
     height: 0;
     border-left: 165.5px solid #B57AD2;
     border-right: 171.5px solid #B57AD2;
-    border-top: 49px solid transparent;
+    border-top: 50px solid transparent;
 }
 
 #fto2::before{
@@ -368,7 +368,7 @@ body{
     height: 0;
     border-left: 165.5px solid #3490CF;
     border-right: 171.5px solid #3490CF;
-    border-top: 49px solid transparent;
+    border-top: 51px solid transparent;
 }
 
 #fto1{
@@ -427,6 +427,63 @@ body{
     margin-bottom: 0%;
 }
 
+#fto1:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+
+#fto2:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+
+#banner4{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background: #fff !important;
+}
+
+#banner4 h1{
+    color: #3C3C3C;
+    font-size: 25px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: center;
+}
+
+#banner4 span{
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #3C3C3C;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+}
+
+.imgBanner4{
+    margin-left:27%;
+}
+
+.Banner4Col{
+    margin-top: 5%;
+}
+
+.Banner4Col:hover{
+    transition: 0.3s;
+    transform: scale(1.04);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 5px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Banner4Col h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
 
 
 
@@ -471,17 +528,21 @@ body{
     #btnSection1 {
         margin-left: 15%;
     }
+
+    .imgBanner4{
+        margin-left: 34%;
+    }
 }
 
 @media only screen and (min-width :1590px) and (max-width:1610px){
     .esfera {
-       margin-left: 33%; 
+        margin-left: 33%; 
     }
     
     .card1{
         margin-top: 6%;
     }
-
+    
     #fto1::before{
         top: -49px;
         border-left: 214px solid #B57AD2;
@@ -494,15 +555,19 @@ body{
         border-right: 213px solid #3490CF;
         border-top: 51px solid transparent;
     }
-
+    
     #bn3txt1{
         padding-bottom: 79px;
     }
-
+    
     body{
         overflow-x: hidden !important;
     }
 
+    .imgBanner4{
+        margin-left: 31%;
+    }
+    
 }
 
 @media only screen and (min-width:1360px) and (max-width:1376px){
