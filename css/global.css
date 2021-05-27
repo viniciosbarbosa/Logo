@@ -49,7 +49,7 @@ body{
     
 }
 
-#btnSection1 , #btnSection2{
+#btnSection1 , #btnSection2, #btnSection4{
     color: #B57AD2 !important;
     font-size: 16px;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
@@ -64,7 +64,7 @@ body{
     margin-top:20px;
     text-decoration: none;
 }
-#btnSection1:hover , #btnSection2:hover{
+#btnSection1:hover , #btnSection2:hover, #btnSection4{
     transition: 0.3s;
     color: #f5f5f5 !important;
     background: linear-gradient(105deg, #f5f5f5 0%, #ad73ca75 100%);
@@ -86,6 +86,13 @@ body{
 
 #btnSection2{
     width: 37% !important;
+}
+
+#btnSection4{
+    width:20% !important;
+    background: none;
+    background-color: #B57AD2 !important;
+    margin-left: 40%;
 }
 
 #btnNav:focus{
@@ -483,7 +490,48 @@ body{
     margin-bottom: 5%;
 }
 
+#banner5{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    background:linear-gradient(180deg, #f5f5f5 -16%, #CBA1DF 100%);
+    height: auto;
+}
 
+.imgFounder{
+    width: 80% !important;
+    padding-bottom: 30px;
+    padding-top: 15%;
+}
+
+.txtFounder h1{
+    color: #3C3C3C;
+    font-size: 50px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    padding-top: 15%;
+}
+
+.txtFounder span{
+    color: #3C3C3C;
+    font-size: 20px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: justify;
+    display: block;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.nameFounder{
+    font-size: 18px !important;
+    margin-top: 16%;
+}
+
+#txtFounder{
+    font-size: 18px !important;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    max-width: 51%;
+}
 
 
 
@@ -528,9 +576,17 @@ body{
     #btnSection1 {
         margin-left: 15%;
     }
-
+    
     .imgBanner4{
         margin-left: 34%;
+    }
+
+    .txtFounder h1{
+        padding-top: 23%;
+    }
+
+    .nameFounder{
+        margin-top: 27%;
     }
 }
 
@@ -563,9 +619,17 @@ body{
     body{
         overflow-x: hidden !important;
     }
-
+    
     .imgBanner4{
         margin-left: 31%;
+    }
+
+    .txtFounder h1{
+        padding-top: 24%;
+    }
+
+    .nameFounder{
+        margin-top: 25%;
     }
     
 }
@@ -595,6 +659,13 @@ body{
         border-right: 181px solid #3490CF;
     }
     
+    .txtFounder h1{
+        padding-top: 24%;
+    }
+
+    .nameFounder{
+        margin-top: 13%;
+    }
     
 }
 
@@ -630,6 +701,25 @@ body{
     
 }
 
+@media only screen and (min-width :770px) and (max-width:1090px){
+    #banner{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #fto1::before {
+        display:none
+    }
+    
+    #fto2::before{
+        display: none;
+    }
+    
+    .esfera{
+        margin-left:calc(100%  - 75%)
+    }
+}
+
 
 @media only screen and (max-width: 761px) {
     .titleBanner1{
@@ -651,27 +741,22 @@ body{
     .col-pink-l ,.col-pink-m,.col-pink-r{
         height: auto;
     }
-    
+
+    #txtFounder{
+        max-width: 100%;
+    }
+
+    .nameFounder{
+        margin-top: 8%;
+    }
+
+    .imgFounder{
+        width: 100% !important;
+        padding-bottom: 0px;
+    }
 }
 
-@media only screen and (min-width :770px) and (max-width:1090px){
-    #banner{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    
-    #fto1::before {
-        display:none
-    }
-    
-    #fto2::before{
-        display: none;
-    }
-    
-    .esfera{
-        margin-left:calc(100%  - 75%)
-    }
-}
+
 
 @media only screen and (min-width :613px )and (max-width:769px){
     .esfera{
@@ -704,6 +789,10 @@ body{
         display: none;
     }
     
+    #btnSection4{
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
     
 }
 
@@ -720,5 +809,11 @@ body{
     
     .esfera {
         margin-left: 31%;
-    }       
+    }   
+    
+    
+    #btnSection4{
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
 }
