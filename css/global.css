@@ -657,6 +657,7 @@ body{
         top: -47px;
         border-left: 183px solid #3490CF;
         border-right: 181px solid #3490CF;
+      
     }
     
     .txtFounder h1{
@@ -817,3 +818,20 @@ body{
         margin-left: 0% !important;
     }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0efef; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #CBA1DF; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B57AD2; 
+  }
