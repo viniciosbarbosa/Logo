@@ -273,6 +273,8 @@ body{
     padding-right: 10%;
     padding-bottom: 5%;
     background: #fff !important;
+    border: none;
+    border-bottom: transparent;
 }
 
 .col-pink-l , .col-pink-r , .col-pink-m{
@@ -362,19 +364,19 @@ body{
     width: 0;
     height: 0;
     border-left: 165.5px solid #B57AD2;
-    border-right: 171.5px solid #B57AD2;
+    border-right: 173.5px solid #B57AD2;
     border-top: 50px solid transparent;
 }
 
 #fto2::before{
     content: "";
     position: absolute;
-    top: -49px;
+    top: -50px;
     left: 0;
     width: 0;
     height: 0;
     border-left: 165.5px solid #3490CF;
-    border-right: 171.5px solid #3490CF;
+    border-right: 173.5px solid #3490CF;
     border-top: 51px solid transparent;
 }
 
@@ -533,6 +535,98 @@ body{
     max-width: 51%;
 }
 
+#banner6{
+    margin-top:10px;
+    border-radius: 45%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    height: 70vh;
+    background:linear-gradient(180deg, #FFF4E5 -16%, #B57AD2 100%);
+}
+
+#imgBanner6{
+    width: 100%;
+    height: 60px;
+}
+
+
+#banner6 h1{
+    color: #3C3C3C;
+    font-size: 25px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+#banner6 span{
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #3C3C3C;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+}
+
+.boxAns{
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 37px;
+    left: 171px;
+    transform: translate(-50%, -50%);
+    width: 237px;
+}
+
+.imgbalao{
+    margin-left: 25px;
+}
+
+.imgbalaohover{
+   transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.txtBalaohover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.txtBalao{
+    font-size: 15px !important;
+    text-align: left !important;
+}
+
+.txtName{
+    font-weight: bold !important;
+    font-size: 16px !important;
+    text-transform: capitalize!important;
+}
+
+.txtName:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    margin-top: 5px !important;
+    margin-left: 27px !important;
+}
+
+.imgbalaoP{
+    margin-top: -25px;
+}
+
+.imgbalaoP:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#Nameprisc{
+    text-align: left !important;
+    margin-left: 18px;
+    margin-top: 2px;
+}
 
 
 @media only screen and (min-width: 1920px) {

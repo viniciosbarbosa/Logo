@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283" height="104.5" viewBox="0 0 283 104.5">
+  <defs>
+    <filter id="Combined_Shape" x="0" y="0" width="283" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#567592" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval_Copy_2" x="10.5" y="50.5" width="54" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#173a56" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Combined_Shape)">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M30.351,53H26.5a26.5,26.5,0,0,1,0-53h206a26.5,26.5,0,1,1,0,53H45.648a7.875,7.875,0,0,1-15.3,0Z" transform="translate(12 10)" fill="#fff"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Oval_Copy_2)">
+    <circle id="Oval_Copy_2-2" data-name="Oval Copy 2" cx="4.5" cy="4.5" r="4.5" transform="translate(33 71)" fill="#fff"/>
+  </g>
+</svg>
+

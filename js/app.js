@@ -17,3 +17,15 @@ $("#btnTop").click(function (){
     return false;
 })
 
+
+$(".txtBalao").on(function(){
+    $(".imgbalaohover").show();
+    $(".txtBalaohover").show();
+    return false;
+})
+
+$("#banner6").on(function(){
+    $(".imgbalaohover").hide();
+    $(".txtBalaohover").hide();
+    return false;
+})
