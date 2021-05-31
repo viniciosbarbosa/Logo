@@ -537,11 +537,12 @@ body{
 
 #banner6{
     margin-top:10px;
+    margin-bottom: 10px;
     border-radius: 45%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 3%;
-    height: 70vh;
+    height: auto;
     background:linear-gradient(180deg, #FFF4E5 -16%, #B57AD2 100%);
 }
 
@@ -573,6 +574,12 @@ body{
     position: relative;
 }
 
+.boxRight{
+    position: relative;
+}
+
+
+
 .centered {
     position: absolute;
     top: 37px;
@@ -581,8 +588,89 @@ body{
     width: 237px;
 }
 
+.centered2{
+    position: absolute;
+    top: 37px;
+    left: 148px;
+    transform: translate(-50%, -50%);
+    width: 237px;
+}
+
+
 .imgbalao{
     margin-left: 25px;
+}
+
+.imgbalaoR{
+    margin-left: 70%;
+    margin-top: -10%;
+}
+
+#Nameprisc{
+    text-align: left !important;
+    margin-left: 18px;
+    margin-top: 2px;
+}
+
+#Nameprisc:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    margin-left: 10%;
+}
+
+#NameTom{
+    text-align: right !important;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+#NameTom:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    margin-right: 13%;
+}
+
+#NameF{
+    text-align: right !important;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+#NameF:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    margin-right: 10%;
+}
+
+#NameM{
+    text-align: right !important;
+    margin-right: 9%;
+    margin-top: 1%;
+}
+
+#NameM:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    margin-right: 13%;
+}
+
+#NameN{
+    text-align: right !important;
+    margin-right: 9%;
+    margin-top: 1%;
+}
+
+
+#NameN:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    margin-right: 13%;
+}
+
+.imgHappy{
+    width: 55%;
+    margin-left: 22%;
+    margin-top: 5%;
 }
 
 .imgbalaohover{
@@ -596,7 +684,12 @@ body{
 }
 
 .txtBalao{
-    font-size: 15px !important;
+    font-size: 14px !important;
+    text-align: left !important;
+}
+
+.txtBalaoTom{
+    font-size: 14px !important;
     text-align: left !important;
 }
 
@@ -606,12 +699,6 @@ body{
     text-transform: capitalize!important;
 }
 
-.txtName:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-    margin-top: 5px !important;
-    margin-left: 27px !important;
-}
 
 .imgbalaoP{
     margin-top: -25px;
@@ -622,11 +709,7 @@ body{
     transition: 0.3s;
 }
 
-#Nameprisc{
-    text-align: left !important;
-    margin-left: 18px;
-    margin-top: 2px;
-}
+
 
 
 @media only screen and (min-width: 1920px) {
