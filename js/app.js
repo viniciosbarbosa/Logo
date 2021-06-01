@@ -17,3 +17,15 @@ $("#btnTop").click(function (){
     return false;
 })
 
+
+function sumirTxt() {
+    $("#msg").css({ "color" : "#B57AD2" , "transition" : "0.3s" , "display" : "initial"});
+    $("#msg2").css({ "color" : "transparent" , "transition" : "0.3s" });
+    
+    
+};
+
+function voltartxt(){
+    $("#msg2").css({ "color" : "#B57AD2" , "transition" : "0.3s" ,"display" : "none"});
+    $("#msg").css({ "color" : "transparent" , "transition" : "0.3s" });
+}
