@@ -18,14 +18,14 @@ $("#btnTop").click(function (){
 })
 
 
-$(".txtBalao").on(function(){
-    $(".imgbalaohover").show();
-    $(".txtBalaohover").show();
-    return false;
-})
+function sumirTxt() {
+    $("#msg").css({ "color" : "#B57AD2" , "transition" : "0.3s" , "display" : "initial"});
+    $("#msg2").css({ "color" : "transparent" , "transition" : "0.3s" });
+    
+    
+};
 
-$("#banner6").on(function(){
-    $(".imgbalaohover").hide();
-    $(".txtBalaohover").hide();
-    return false;
-})
+function voltartxt(){
+    $("#msg2").css({ "color" : "#B57AD2" , "transition" : "0.3s" ,"display" : "none"});
+    $("#msg").css({ "color" : "transparent" , "transition" : "0.3s" });
+}
